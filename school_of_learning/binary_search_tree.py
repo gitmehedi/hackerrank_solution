@@ -1,3 +1,6 @@
+# Mehedi Hasan
+
+
 class Node(object):
     def __init__(self, val):
         self.l_child = None
@@ -17,22 +20,6 @@ class BinarySearchTree(object):
 
         return root
 
-    def remove(self, root, node):
-
-        if root.val == node.val:
-            if root.l_child is None and root.l_child is None:
-                pass
-            elif root.l_child:
-                pass
-            elif root.l_child:
-                pass
-            else:
-                self.remove()
-
-
-
-        else:
-            return
 
     def in_order_place(self, root):
         if not root:
